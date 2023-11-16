@@ -1,0 +1,79 @@
+#rock {
+    font-style: oblique;
+    font-size: 30px;
+
+    /* border */
+
+    border-radius: 10px;
+    border-color: red;
+    padding: 1px;
+
+
+}
+
+/* @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    
+    to {
+        opacity: 1;
+    }
+} */
+
+#rock:hover {
+    cursor: pointer;
+
+}
+
+#rock {
+    margin-left: 0px;
+    margin-top: 200px;
+    display: block;
+    position: absolute;
+}
+
+
+#paper {
+    font-style: oblique;
+    font-size: 30px;
+
+    /* border */
+
+    border-radius: 10px;
+    border-color: red;
+    padding: 1px;
+}
+
+#paper:hover {
+    cursor: pointer;
+}
+
+#paper {
+    margin-left: 150px;
+    margin-top: 100px;
+    display: block;
+    position: absolute;
+}
+
+#scissors {
+    font-style: oblique;
+    font-size: 30px;
+
+    /* border */
+
+    border-radius: 10px;
+    border-color: red;
+    padding: 1px;
+}
+
+#scissors:hover {
+    cursor: pointer;
+}
+
+#scissors {
+    margin-left: 350px;
+    margin-top: 200px;
+    display: block;
+    position: absolute;
+}
